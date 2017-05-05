@@ -15,10 +15,12 @@ body {
   width: 100%;
   height: 100%;
   z-index: -20;
-  background-color: #182327;
+/*   background-color: #182327; */
+  background-color: #212121;
 }
 .head{
-  color: #32CD32;
+/*   color: #32CD32; */
+  color: #10c600;
   font-family: 'Lustria', serif;
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
@@ -60,8 +62,12 @@ p{
   margin-bottom: 0px;
   color:white;
   font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-family: 'Roboto', sans-serif;
   font-family: 'Montserrat', sans-serif;
+}
+.dud{
+  color #757575;
 }
 .icons{
   display:inline-block;
@@ -71,21 +77,22 @@ p{
 
 }
 .fb, .lin, .git, .twit, .mail, .res{
-  color:#32CD32;
+/*   color:#32CD32; */
+  color:#10c600;
 }
 
 .ico{
   border: 4px double white;
   border-radius: 50%;
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   padding: 11px;
   position: relative;
   background: transparent;
   transition: all 0.2s ease;
   text-decoration: none;
-  margin: 22px 8px;
+  margin: 22px 10px;
 }
 
 .ico-res{
@@ -111,7 +118,6 @@ p{
 }
 .ico:hover .fb{
   color:white;
-
 }
 
 .ico:hover .lin{
@@ -121,9 +127,6 @@ p{
   color:white;
 }
 .ico:hover .mail{
-  color:white;
-}
-.ico:hover .twit{
   color:white;
 }
 .ico-res:hover .res{
@@ -199,6 +202,7 @@ p{
   .fa-3x{
     font-size: 2em !important;
   }
+  
   ul{
     padding:0px !important;
 
