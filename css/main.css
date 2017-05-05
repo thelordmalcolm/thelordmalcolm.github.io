@@ -1,8 +1,16 @@
 /* ---- reset ---- */
 
+html,
+
 body {
   margin: 0;
   font:normal 75% Arial, Helvetica, sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  /*height: 100%;*/
+}
+
+.dud {
+  color: #10c600;
 }
 
 .wrapper{
@@ -66,9 +74,7 @@ p{
   font-family: 'Roboto', sans-serif;
   font-family: 'Montserrat', sans-serif;
 }
-.dud{
-  color #757575;
-}
+
 .icons{
   display:inline-block;
   float: left;
@@ -202,7 +208,7 @@ p{
   .fa-3x{
     font-size: 2em !important;
   }
-  
+
   ul{
     padding:0px !important;
 

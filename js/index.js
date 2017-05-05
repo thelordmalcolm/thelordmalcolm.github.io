@@ -11,7 +11,7 @@ var TextScramble = function () {
     _classCallCheck(this, TextScramble);
 
     this.el = el;
-    this.chars = '01010101';
+    this.chars = '0#10>10%101';
     this.update = this.update.bind(this);
   }
 
