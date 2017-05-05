@@ -1,6 +1,6 @@
 var i = 1;
 var j= -1;
-var list = ['Developer - Student - Coffee-ist'];
+var list = ['Malcolm Fraser'];
 var a=list[0];
 var len = list.length;
 var num = 0;
@@ -16,16 +16,11 @@ function txt(){
 			{
 				i++;
 			}
-		else
-			{
-				i = -1;}
+		else{ i = -1; }
 	}
 	else
 	{
-		if(-1*i != a.length)
-			{
-				i--;
-			}
+		if(-1*i != a.length){ i--; }
 		else
 			{
 				i=1;
@@ -33,7 +28,6 @@ function txt(){
 				a = list[flag];
 			}
 	}
-
 }
 function ret_index(a){
 	var index = list.indexOf(a);
